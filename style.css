@@ -1,0 +1,47 @@
+body {
+	background-image: url(image_fond.jpg);
+	background-attachment: scroll;
+	background-size: cover;
+}
+
+h1 {
+	color : #07ae01;
+	opacity: 0.7;
+	font-size : 1.5em;
+	text-align : center;
+	text-decoration: underline;
+	
+}
+
+ul {
+	color : #15eb0e;
+	text-align: center;
+	border : 2px orange dotted;
+}
+
+p {
+	color: #f88200;
+	font-size: 2em;
+	font-style : bold;
+	text-align: center;
+}
+
+
+section {
+	width: 350px;
+	padding: 5px;
+	margin: auto;	
+}
+
+@media only screen and (max-width:450px) {
+ p {
+ background-color:black;
+ color:white
+ }
+}
+
+article {
+display: flex;
+justify-content: center;
+align-items: center;
+}
